@@ -1,0 +1,15 @@
+C:\Projects\BankSystem\Dtos\bin\Debug\net8.0\Dtos.deps.json
+C:\Projects\BankSystem\Dtos\bin\Debug\net8.0\Dtos.dll
+C:\Projects\BankSystem\Dtos\bin\Debug\net8.0\Dtos.pdb
+C:\Projects\BankSystem\Dtos\bin\Debug\net8.0\Domain.dll
+C:\Projects\BankSystem\Dtos\bin\Debug\net8.0\Domain.pdb
+C:\Projects\BankSystem\Dtos\obj\Debug\net8.0\Dtos.csproj.AssemblyReference.cache
+C:\Projects\BankSystem\Dtos\obj\Debug\net8.0\Dtos.GeneratedMSBuildEditorConfig.editorconfig
+C:\Projects\BankSystem\Dtos\obj\Debug\net8.0\Dtos.AssemblyInfoInputs.cache
+C:\Projects\BankSystem\Dtos\obj\Debug\net8.0\Dtos.AssemblyInfo.cs
+C:\Projects\BankSystem\Dtos\obj\Debug\net8.0\Dtos.csproj.CoreCompileInputs.cache
+C:\Projects\BankSystem\Dtos\obj\Debug\net8.0\Dtos.csproj.CopyComplete
+C:\Projects\BankSystem\Dtos\obj\Debug\net8.0\Dtos.dll
+C:\Projects\BankSystem\Dtos\obj\Debug\net8.0\refint\Dtos.dll
+C:\Projects\BankSystem\Dtos\obj\Debug\net8.0\Dtos.pdb
+C:\Projects\BankSystem\Dtos\obj\Debug\net8.0\ref\Dtos.dll
