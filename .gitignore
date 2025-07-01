@@ -1,0 +1,19 @@
+# Visual Studio
+.vs/
+*.[suo|user]
+*.user
+*.cache
+
+# Build results
+[Bb]in/
+[Oo]bj/
+
+# Rider
+.idea/
+
+# User Secrets
+**/secrets.json
+
+# Other
+*.lock.json
+*.nupkg

@@ -1,0 +1,115 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Operation>
+	<FileDate>2024-07-02</FileDate>
+	<Transactions>
+		<!-- Case 1: Standard Successful Debit -->
+		<Transaction>
+			<ExternalId>DEBIT-SUCCESS-001</ExternalId>
+			<CreateDate>2024-07-01T10:30:00.000Z</CreateDate>
+			<Amount>
+				<Direction>D</Direction>
+				<Value>150.75</Value>
+				<Currency>EUR</Currency>
+			</Amount>
+			<Status>1</Status>
+			<Debtor>
+				<BankName>Main Local Bank</BankName>
+				<BIC>MLBNL2A</BIC>
+				<IBAN>NL11MLBN1111222233</IBAN>
+			</Debtor>
+			<Beneficiary>
+				<BankName>Your Merchant Bank</BankName>
+				<BIC>YMBKDE2A</BIC>
+				<IBAN>DE22YMBK3333444455</IBAN>
+			</Beneficiary>
+		</Transaction>
+
+		<!-- Case 2: Standard Successful Credit -->
+		<Transaction>
+			<ExternalId>CREDIT-SUCCESS-002</ExternalId>
+			<CreateDate>2024-07-01T11:45:15.500Z</CreateDate>
+			<Amount>
+				<Direction>C</Direction>
+				<Value>2500.00</Value>
+				<Currency>EUR</Currency>
+			</Amount>
+			<Status>1</Status>
+			<Debtor>
+				<BankName>International Payer Bank</BankName>
+				<BIC>IPAYGB2L</BIC>
+				<IBAN>GB33IPAY5555666677</IBAN>
+			</Debtor>
+			<Beneficiary>
+				<BankName>Your Merchant Bank</BankName>
+				<BIC>YMBKDE2A</BIC>
+				<IBAN>DE22YMBK3333444455</IBAN>
+			</Beneficiary>
+		</Transaction>
+
+		<!-- Case 3: Failed Debit Transaction -->
+		<Transaction>
+			<ExternalId>DEBIT-FAILED-003</ExternalId>
+			<CreateDate>2024-07-02T09:05:30.123Z</CreateDate>
+			<Amount>
+				<Direction>D</Direction>
+				<Value>99.99</Value>
+				<Currency>EUR</Currency>
+			</Amount>
+			<Status>0</Status>
+			<Debtor>
+				<BankName>Another Customer Bank</BankName>
+				<BIC>ACBNFR2A</BIC>
+				<IBAN>FR44ACBN7777888899</IBAN>
+			</Debtor>
+			<Beneficiary>
+				<BankName>Your Merchant Bank</BankName>
+				<BIC>YMBKDE2A</BIC>
+				<IBAN>DE22YMBK3333444455</IBAN>
+			</Beneficiary>
+		</Transaction>
+
+		<!-- Case 4: Transaction with a different currency (USD) -->
+		<Transaction>
+			<ExternalId>USD-CREDIT-004</ExternalId>
+			<CreateDate>2024-07-02T14:00:00.000Z</CreateDate>
+			<Amount>
+				<Direction>C</Direction>
+				<Value>125.50</Value>
+				<Currency>USD</Currency>
+			</Amount>
+			<Status>1</Status>
+			<Debtor>
+				<BankName>American Bank Corp</BankName>
+				<BIC>AMBCUS33</BIC>
+				<IBAN>US55AMBC1234567890</IBAN>
+			</Debtor>
+			<Beneficiary>
+				<BankName>Your Merchant Bank</BankName>
+				<BIC>YMBKDE2A</BIC>
+				<IBAN>DE22YMBK3333444455</IBAN>
+			</Beneficiary>
+		</Transaction>
+
+		<!-- Case 5: Transaction with a more complex decimal value -->
+		<Transaction>
+			<ExternalId>DEBIT-COMPLEX-005</ExternalId>
+			<CreateDate>2024-07-02T15:22:11.987Z</CreateDate>
+			<Amount>
+				<Direction>D</Direction>
+				<Value>12345.67</Value>
+				<Currency>EUR</Currency>
+			</Amount>
+			<Status>1</Status>
+			<Debtor>
+				<BankName>Corporate Payer Inc.</BankName>
+				<BIC>CPINL2A</BIC>
+				<IBAN>NL66CPIN1231231231</IBAN>
+			</Debtor>
+			<Beneficiary>
+				<BankName>Your Merchant Bank</BankName>
+				<BIC>YMBKDE2A</BIC>
+				<IBAN>DE22YMBK3333444455</IBAN>
+			</Beneficiary>
+		</Transaction>
+	</Transactions>
+</Operation>
