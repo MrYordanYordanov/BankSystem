@@ -1,10 +1,26 @@
-# ================= #
-# User-specific     #
-# ================= #
+# Visual Studio
+.vs/
+*.[suo|user]
 *.user
-*.suo
-*.sln.docstates
+*.cache
 
-# Secrets
-# Do not commit local development settings or other environment-specific settings.
+# Build results
+[Bb]in/
+[Oo]bj/
+
+# Rider
+.idea/
+
+# User Secrets
+**/secrets.json
+
+# Other
+*.lock.json
+*.nupkg
+
+# User-specific files and secrets
+# Ignore application settings files that may contain secrets.
+# The main appsettings.json is often kept for structure, but appsettings.Development.json
+# is almost always ignored because it contains local developer connection strings.
+
 appsettings.Development.json
